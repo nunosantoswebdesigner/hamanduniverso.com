@@ -196,7 +196,7 @@ export const servicesIconsSoraia = [
 
 
 
-export const collabText = "Fruto de duas jornadas transformadoras de autoconhecimento, estes projetos unem-se pelo divino, amor e luz, apoiando a humanidade na autocura e expansão de consciência. Todos os nosso serviços são, fundamentados no amor, na luz e no divino e visam proporcionar uma experiência transformadora para aqueles que buscam compreender-se mais profundamente, superar bloqueios e viver com maior conexão interior.";
+export const collabText = "Fruto de duas jornadas transformadoras de autoconhecimento, estes projetos unem-se pelo divino, amor e luz, apoiando a humanidade na autocura e expansão de consciência. As técnicas terapêuticas visam proporcionar uma experiência transformadora para aqueles que buscam compreender-se mais profundamente, superar bloqueios e viver com maior conexão interior";
 
 export const collabContent = [
   {
