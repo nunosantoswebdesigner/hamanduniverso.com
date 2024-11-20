@@ -10,7 +10,7 @@ const Servicos = () => (
   <Section className="overflow-hidden" id="servicos">
     <div className="mt-10"></div>
     <div className="container md:pb-10">
-      <Heading tag="SERVIÇOS" title="Estamos aqui para te ajudar" />
+      <Heading tag="SERVIÇOS" title="Estamos aqui para te apoiar" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
