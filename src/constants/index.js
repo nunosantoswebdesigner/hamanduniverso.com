@@ -1,5 +1,6 @@
 // Imagens
-import { cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, logoSmall, chromecast, disc02, discordBlack, facebook, file02, homeSmile, instagram,  plusSquare, recording01, recording03, serviceOne, serviceTwo, serviceThree, serviceFour, searchMd, sliders04, telegram, tiktok, yourlogo, clienteCard, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7, Icon8 } from "../assets";
+import { cliente1, cliente2, cliente3, cliente4, cliente5, cliente6, logoSmall, chromecast, disc02, smallSphere, facebook, file02, homeSmile, instagram,  plusSquare, recording01, recording03, serviceOne, serviceTwo, serviceThree, serviceFour, searchMd, sliders04, telegram, tiktok, yourlogo, clienteCard, Icon1, Icon2, Icon3, Icon4, Icon5, Icon6, Icon7, Icon8 } from "../assets";
+import Testemunhos from "../components/Testemunhos";
 
 // Menu
 export const navigation = [ { id: "0", title: "Serviços", url: "#servicos", }, { id: "1", title: "Sobre nós", url: "#sobrenos", }, { id: "2", title: "Testemunhos", url: "#testemunhos", }, { id: "3", title: "Contactos", url: "#contactos", }
@@ -22,7 +23,8 @@ export const roadmap = [
     text: "Consulta de abertura de Registos Akashicos, que são os registos de memória onde a alma guarda todas as experiências desta e de outras vidas. Nesta abertura são-nos explanadas várias lições que a alma traz para superar nesta encarnação, assim como as habilidades e talentos pessoais, qualidades, bloqueios de chakras, o alinhamento com a força divina e bloqueios. Por norma, os guias trazem-nos qualquer informação que estamos prontos a consciencializar e desta forma prossigamos ao seu desenvolvimento e evolução.",
     date: "45€",
     status: "online",
-    imageUrl: serviceTwo
+    imageUrl: serviceTwo,
+    colorful: true,
   },
   {
     id: "2",
@@ -31,6 +33,7 @@ export const roadmap = [
     date: "45€",
     status: "online",
     imageUrl: serviceThree,
+    colorful: true,
   },
   {
     id: "3",
@@ -39,14 +42,15 @@ export const roadmap = [
     date: "36€",
     status: "online",
     imageUrl: serviceFour,
+    colorful: true,
   },
 ];
 
+// Testemunhos
 export const benefits = [
   {
     id: "0",
-    backgroundUrl: clienteCard,
-    imageUrl: logoSmall,
+    imageUrl: smallSphere,
     name: 'Ana Soares',
     position: 'Marketing Director at GreenLeaf',
     backgroundImage:'./src/assets/logo-small.png',
@@ -55,8 +59,7 @@ export const benefits = [
   },
   {
     id: "1",
-    backgroundUrl: clienteCard,
-    imageUrl: logoSmall,
+    imageUrl: smallSphere,
     light: true,
     name: 'Anzhelika Ishkova',
     position: 'Marketing Director at GreenLeaf',
@@ -66,8 +69,7 @@ export const benefits = [
   },
   {
     id: "2",
-    backgroundUrl: clienteCard,
-    imageUrl: logoSmall,
+    imageUrl: smallSphere,
     name: 'Wander Pardini',
     position: 'Marketing Director at GreenLeaf',
     backgroundImage:'./src/assets/logo-small.png',
@@ -76,8 +78,7 @@ export const benefits = [
   },
   {
     id: "3",
-    backgroundUrl: clienteCard,
-    imageUrl: logoSmall,
+    imageUrl: smallSphere,
     light: true,
     name: 'António Graça',
     position: 'Marketing Director at GreenLeaf',
@@ -87,8 +88,7 @@ export const benefits = [
   },
   {
     id: "4",
-    backgroundUrl: clienteCard,
-    imageUrl: logoSmall,
+    imageUrl: smallSphere,
     name: 'Nuno Santos',
     position: 'Marketing Director at GreenLeaf',
     backgroundImage:'./src/assets/logo-small.png',
@@ -97,8 +97,7 @@ export const benefits = [
   },
   {
     id: "5",
-    backgroundUrl: clienteCard,
-    imageUrl: logoSmall,
+    imageUrl: smallSphere,
     name: 'Lourenço Caetano',
     position: 'Marketing Director at GreenLeaf',
     backgroundImage:'./src/assets/logo-small.png',
@@ -194,8 +193,6 @@ export const servicesIconsSoraia = [
   }
 ];
 
-
-
 export const collabText = "Fruto de duas jornadas transformadoras de autoconhecimento, estes projetos unem-se pelo divino, amor e luz, apoiando a humanidade na autocura e expansão de consciência. As técnicas terapêuticas visam proporcionar uma experiência transformadora para aqueles que buscam compreender-se mais profundamente, superar bloqueios e viver com maior conexão interior";
 
 export const collabContent = [
@@ -225,43 +222,6 @@ export const collabApps = [
   { id: "7", title: "Icon8", icon: Icon8, width: 40, height: 40 },
   
 ];
-
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  // {
-  //   id: "1",
-  //   title: "Premium",
-  //   description: "Advanced AI chatbot, priority support, analytics dashboard",
-  //   price: "9.99",
-  //   features: [
-  //     "An advanced AI chatbot that can understand complex queries",
-  //     "An analytics dashboard to track your conversations",
-  //     "Priority support to solve issues quickly",
-  //   ],
-  // },
-  // {
-  //   id: "2",
-  //   title: "Enterprise",
-  //   description: "Custom AI chatbot, advanced analytics, dedicated account",
-  //   price: null,
-  //   features: [
-  //     "An AI chatbot that can understand your queries",
-  //     "Personalized recommendations based on your preferences",
-  //     "Ability to explore the app and its features without any cost",
-  //   ],
-  // },
-];
-
 
 export const socials = [
   {
