@@ -90,3 +90,31 @@
 .no-scroll {
   overflow: hidden;
 }
+
+.bg-conic-gradient-hero {
+  background-image: conic-gradient(
+    from -180deg, 
+    #f89aa0 0%, 
+    #f78fa0cc 20%, 
+    #cc42ac 40%, 
+    #c03bab 70%, 
+    #f89aa0 100%
+  ) !important;
+}
+.bg-conic-gradient {
+  background-image: conic-gradient(
+    from 55deg, 
+    #f89aa0 0%, 
+    #f88aa0 10%, 
+    #f78fa0 20%, 
+    #f375a2 40%, 
+    #d45fb2 55%, 
+    #cc42ac 70%, 
+    #c03bab 85%, 
+    #f89aa0 100%
+  ) !important;
+}
+
+.custom-card-border {
+  background-image: url('/src/assets/clientes/clienteCard.svg') !important;
+}
