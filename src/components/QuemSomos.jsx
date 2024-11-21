@@ -1,34 +1,18 @@
 import Section from "./Section";
-import Heading from "./Heading";
 import { catarinaQuemSomos, soraiaQuemSomos } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons, servicesIconsCatarina, servicesIconsSoraia } from "../constants";
-import {
-  PhotoChatMessage,
-  Gradient,
-  VideoBar,
-  VideoChatMessage,
-} from "./design/Services";
-
-import Generating from "./Generating";
+import { servicesIconsCatarina, servicesIconsSoraia } from "../constants";
+import { Gradient, VideoBar, VideoChatMessage, } from "./design/Services";
 
 const QuemSomos = () => {
   return (
     <Section id="services">
       <div className="container">
-     
         <div className="relative">
-      
-
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            
-
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Catarina Luis</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
-                Eu sou a Catarina, sou Humanoterapeuta formada em 2020. Amante de Terapias Holísticas, fiz formação em Humanoterapia, Circulo da Vida, Iniciação Alquimica, Astrologia, E.F.T., Numerologia, Espiritualidade entre outros. Iniciei atendimentos em 2021 e assim fui descobrindo a minha missão. Vamos investir na sua melhor versão?
-                </p>
-
+                <p className="body-2 mb-[2rem] text-n-3">Eu sou a Catarina, sou Humanoterapeuta formada em 2020. Amante de Terapias Holísticas, fiz formação em Humanoterapia, Circulo da Vida, Iniciação Alquimica, Astrologia, E.F.T., Numerologia, Espiritualidade entre outros. Iniciei atendimentos em 2021 e assim fui descobrindo a minha missão. Vamos investir na sua melhor versão?</p>
                 <ul className="flex items-center justify-between">
                   {servicesIconsCatarina.map((item, index) => (
                     <li
@@ -54,25 +38,23 @@ const QuemSomos = () => {
                   ))}
                 </ul>
               </div>
-
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={catarinaQuemSomos}
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="Catarina Profile Photo"
                 />
-
                 <VideoChatMessage />
                 <VideoBar />
               </div>
             </div>
+
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Soraia Pereira</h4>
                 <p className="body-2 mb-[2rem] text-n-3">Eu sou a Soraia, Terapeuta Holística desde 2020, quando iniciei a minha jornada de autoconhecimento e expansão de consciência. Atualmente atuo na abertura de Registos Akashicos, Pêndulo Hebreu, Constelações Familiares e Tarot Terapêutico. Tenho como propósito ajudar o ser humano a encontrar o seu caminho de autocura. Vamos a isso?</p>
-
                 <ul className="flex items-center justify-between">
                   {servicesIconsSoraia.map((item, index) => (
                     <li
@@ -98,16 +80,14 @@ const QuemSomos = () => {
                   ))}
                 </ul>
               </div>
-
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={soraiaQuemSomos}
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="Soraia Profile Photo"
                 />
-
                 <VideoChatMessage />
                 <VideoBar />
               </div>

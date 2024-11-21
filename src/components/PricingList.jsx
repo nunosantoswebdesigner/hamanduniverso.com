@@ -100,7 +100,7 @@ const PricingList = () => {
                 value={form.name}
                 onChange={handleChange}
                 required
-                className="field-input w-full p-4 rounded-lg border-2 border-slate-700"
+                className="field-input w-full p-4 rounded-lg border border-n-6"
                 placeholder="ex., Carl Jung"
               />
             </label>
@@ -113,7 +113,7 @@ const PricingList = () => {
                 value={form.email}
                 onChange={handleChange}
                 required
-                className="field-input w-full p-4 rounded-lg border-2 border-slate-700"
+                className="field-input w-full p-4 rounded-lg border border-n-6"
                 placeholder="ex., carljung@sunlight.com"
               />
             </label>
@@ -126,7 +126,7 @@ const PricingList = () => {
                 onChange={handleChange}
                 required
                 rows={5}
-                className="field-input w-full p-4 rounded-lg border-2 border-slate-700"
+                className="field-input w-full p-4 rounded-lg border border-n-6"
                 placeholder="Quero saber mais informções sobre..."
               />
             </label>
@@ -134,9 +134,9 @@ const PricingList = () => {
             <Button className="w-full mb-6 field-btn" type="submit" disabled={loading} >{loading ? 'A enviar...' : 'Enviar'}</Button>
           </form>
           <div className="text-center mt-10">
-            <div className="block md:inline"><button onClick={handleOpenModalPoliticas} className="text-xs font-code font-bold tracking-wider uppercase border-b">Políticas de Privacidade</button></div>
+            <div className="block md:inline"><button onClick={handleOpenModalPoliticas} className="text-xs font-code font-bold tracking-wider uppercase border-b hover:text-color-1">Políticas de Privacidade</button></div>
             <div className="mx-4 hidden md:inline"><span className="">|</span></div>
-            <div className="block md:inline"><button onClick={handleOpenModalTermos} className="text-xs font-code font-bold tracking-wider uppercase border-b">Termos e Condições</button></div>
+            <div className="block md:inline"><button onClick={handleOpenModalTermos} className="text-xs font-code font-bold tracking-wider uppercase border-b hover:text-color-1">Termos e Condições</button></div>
             
             
             

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}. All rights reserved. 
-          <span className="block md:inline"> Made by <a href="https://www.instagram.com/nunosantosdev/" target="_blank"> <u>Nuno Santos</u>  </a> with ❤️</span>
+          <span className="block md:inline"> Made by <a href="https://www.instagram.com/nunosantosdev/" target="_blank"> <u className="hover:text-color-1">Nuno Santos</u>  </a> with ❤️</span>
         </p>
 
         <ul className="flex gap-5 flex-wrap">
